@@ -1,6 +1,6 @@
 FROM node:latest
 
-RUN git clone https://github.com/iharosi/ps5-wake.git
+RUN git clone https://github.com/lubbertkramer/ps5-wake.git
 WORKDIR ps5-wake
 RUN make install
 
